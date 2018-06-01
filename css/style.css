@@ -1,0 +1,234 @@
+@font-face {
+	font-family: 'ProximaNova';
+	src: url(../fonts/ProximaNova-Regular/ProximaNova-Regular.eot) format('eot'),
+		 url(../fonts/ProximaNova-Regular/ProximaNova-Regular.svg) format('svg'),
+		 url(../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf) format('ttf'),
+		 url(../fonts/ProximaNova-Regular/ProximaNova-Regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'FuturaPT';
+	src: url(../fonts/FuturaPT-Heavy/FuturaPT-Heavy.eot) format('eot'),
+		 url(../fonts/FuturaPT-Heavy/FuturaPT-Heavy.svg) format('svg'),
+		 url(../fonts/FuturaPT-Heavy/FuturaPT-Heavy.ttf) format('ttf'),
+		 url(../fonts/FuturaPT-Heavy/FuturaPT-Heavy.woff) format('woff');
+}
+
+body {
+	font-family: 'Georgia', serif;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #000000;
+	background-color: #464f54;
+	padding: 0;
+	margin: 0;
+}
+
+.field-wrapper {
+	background-color: #181818;
+	box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+	width: 876px;
+	height: 187px;
+	margin-left: auto;
+	margin-top: 47px;
+	z-index: 10;
+	position: relative;
+}
+
+.form-label {
+	font-family: 'Proxima Nova', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+	color: #767676;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	display: block;
+	padding-top: 50px;
+	padding-left: 64px;
+	cursor: pointer;
+}
+
+.form-input {
+	font-family: 'Playfair Display', 'Times New Roman', serif;
+	font-size: 48px;
+	line-height: 2;
+	color: #fefefe;
+	background-color: rgba(0, 0, 0, 0);
+	margin-left: 64px;
+	margin-top: 2px;
+	padding-bottom: 8px;
+	width: 90%;
+	height: 50px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 3px solid rgba(255,255,255,0.1);
+}
+
+.btn-wrapper {
+	background-color: #fbc02d;
+	box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+	width: 812px;
+	height: 76px;
+	margin-left: auto;
+	z-index: 9;
+	position: relative;
+}
+
+.button.one {
+	background: url(../img/ic_format_color_text_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 40px;
+}
+
+.button.two {
+	background: url(../img/ic_format_size_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.three {
+	background: url(../img/ic_insert_photo_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.four {
+	background: url(../img/ic_format_bold_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.five {
+	background: url(../img/ic_format_italic_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.six {
+	background: url(../img/ic_format_underline_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.seven {
+	background: url(../img/ic_format_align_justify_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.eight {
+	background: url(../img/ic_format_align_left_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.nine {
+	background: url(../img/ic_format_align_center_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button.ten {
+	background: url(../img/ic_format_align_right_white_24dp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+[class*='button'] {
+	font-size: 0;
+	width: 38px;
+	height: 38px;
+	margin-left: 12px;
+	margin-top: 25px;
+	border: none;
+}
+
+[class*='button']:active {
+	transform: scale(0.8);
+}
+
+.article {
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+	width: 1060px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -160px;
+	z-index: 8;
+	position: relative;
+}
+
+.article::before {
+	content: '';
+	background-color: #e8eced;
+	width: 2px;
+	height: 100%;
+	position: absolute;
+	left: 67px;
+}
+
+.header-text {
+	font-family: 'ProximaNova', 'Arial', sans-serif;
+	color:  #b4b4b4;
+	font-size: 19.83px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: left;
+	display: block;
+	padding-top: 202px;
+	padding-left: 127px;
+}
+
+.article-title {
+	font-family: 'FuturaPT', 'Arial', sans-serif;
+	color: #2a2a2a;
+	font-size: 77.94px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: left;
+	padding-left: 127px;
+	margin: 0;
+}
+
+.article-text.prolog {
+	font-family: 'Georgia', "Times New Roman", serif;
+	color:  #8f8f8f;
+	font-size: 30px;
+	font-style: italic;
+	text-align: justify;
+	padding-left: 127px;
+	margin: 0;
+	margin-top: -20px;
+}
+
+.article-text {
+	font-family: Georgia;
+	color:  #000000;
+	font-size: 26.92px;
+	font-weight: 400;
+	line-height: 62.443px;
+	text-align: justify;
+	margin-left: 124px;
+	margin-right: 130px;
+	line-height: 1.5em;
+}
+
+.article-text.first-paragraph {
+	margin-top: 55px;
+	margin-bottom: 0;
+}
+
+.article-text.second-paragraph {
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+/*Чтобы панельки выровнять сбоку и чтоб наехали на статью - отрицательный марджин
+Чтоб сьехали вбок margin left auto*/
+
+/*Во втором - псевдокласс first letter и использовать float
+Цитата - использовать или q или blackquote */
