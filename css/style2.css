@@ -3,17 +3,74 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #000000;
+	background-color: #464f54;
+}
+
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1060px;
+}
+
+.main-content {
+	position: relative;
+	padding-top: 149px;
+	padding-bottom: 50px;
+}
+
+.form {
+	position: absolute;
+	top: 47px;
+	right: -70px;
+	width: 876px;
+	overflow: hidden;
+}
+
+.form-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e8e8e8;
+  opacity: 1;
+}
+
+.form-input::-moz-placeholder { /* Firefox 19+ */
+  color: #e8e8e8;
+  opacity: 1;
+}
+
+.form-input:-ms-input-placeholder { /* IE 10+ */
+  color: #e8e8e8;
+  opacity: 1;
+}
+
+.form-input:-moz-placeholder { /* Firefox 18- */
+  color: #e8e8e8;
+  opacity: 1;
+}
+
+.form-input::placeholder {
+	color: #e8e8e8;
+	opacity: 1;
 }
 
 .field-wrapper {
 	background-color: #181818;
 	padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 50px;
+	padding-top: 43px;
 	padding-bottom: 50px;
 }
 
 .btn-wrapper {
+	position: relative;
+	left: 64px;
 	padding-left: 42px;
 	padding-right: 42px;
 	padding-top: 22px;
@@ -30,13 +87,39 @@ body {
 .form-input {
 	display: block;
 	font-family: 'Playfair Display', 'Times New Roman', serif;
+	display: block;
+	padding-left: 3px;
+	padding-right: 4px;
+	padding-top: 0;
+	padding-bottom: 15px;
+	margin-top: -2px;
+	background-color: inherit;
+	border: none;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 48px;
+	color: #fefefe;
+	outline: none;
 }
 
 .form-label {
+	display: inline-block;
 	font-family: 'Proxima Nova', Arial, sans-serif;
 	font-size: 15px;
 	line-height: 1.2;
 	color: #767676;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
+}
+
+.form-input:focus {
+	border-bottom-color: #fabf2d;
+}
+
+.article {
+	padding-left: 125px;
+	padding-left: 132px;
+	padding-top: 202px;
+	background-color: #ffffff;
 }
