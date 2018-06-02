@@ -1,0 +1,42 @@
+body {
+	font-family: Georgia, serif;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.field-wrapper {
+	background-color: #181818;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btn-wrapper {
+	padding-left: 42px;
+	padding-right: 42px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-color: #fbc02d;
+}
+
+.field-wrapper,
+.btn-wrapper {
+	box-sizing: border-box;
+	width: 876px;
+}
+
+.form-input {
+	display: block;
+	font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+.form-label {
+	font-family: 'Proxima Nova', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+	color: #767676;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
